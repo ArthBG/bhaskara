@@ -79,18 +79,39 @@ function caixa() {
         }
         
     }*/
-    function bhas(){
-        let n1 = Number(document.getElementById("n1").value);
-        let n2 = Number(document.getElementById("n2").value);
-        let n3 = Number(document.getElementById("n3").value);
+    function bhask(){
+        // número 1
+        let a = Number(document.getElementById("n1").value);
+        // número 2
+        let b = Number(document.getElementById("n2").value);
+        // número 3
+        let c = Number(document.getElementById("n3").value);
         // raiz de 2
-        let raiz =  Math.sqrt(4) 
+        
+        let delta = -4*a*c;
+        let dividir = 2*a;
+        let expo = b*b;
+        let delt = expo + delta;
+        let raiz =  Math.sqrt(delt); 
+        let positivo = -b + raiz;
+        let negativo = -b - raiz;
+        let divp = positivo / dividir;
+        let divn = negativo / dividir;
+
+       if(a >= 6){ 
+         document.getElementById("x1").innerHTML = "O delta é negativo. Equação não possui raízes reais";
 
 
-        if(){
-
-        }
-
+       }
+       console.log(delta);
+       console.log(dividir);
+       console.log(expo);
+       console.log(delt);
+       console.log(raiz);
+       console.log(positivo);
+       console.log(negativo);
+       console.log(divp);
+       console.log(divn);
     }
 
    
