@@ -38,9 +38,10 @@ function bhask() {
         return;
     }
     //o que esta na raiz for igual a 0
-    else if (delt == 0) {
-        console.log(delta);
-        document.getElementById("x1").innerHTML = `Só existe uma raiz real que é: ${divp}`;
+    else if (delta == 0) {
+        document.getElementById("x1").innerHTML = `Só existe uma raiz real que é: ${divp}`
+        document.getElementById("x2").innerHTML = `Só existe uma raiz real que é: ${divp}`;
+        ;
 
     }
     //se o x1 é par
