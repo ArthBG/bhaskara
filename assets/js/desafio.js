@@ -38,7 +38,7 @@ function bhask() {
     else if (delta == 0) {
         document.getElementById("x1").innerHTML = `Só existe uma raiz real que é: ${divp}`;
         document.getElementById("x2").innerHTML = `Só existe uma raiz real que é: ${divp}`;
-        ;
+        
 
     }
     //se o x1 é par
@@ -59,7 +59,7 @@ function bhask() {
     if (divp < divn) {
         document.getElementById("x1").innerHTML = `x1 é igual: ${divn}`;
         document.getElementById("x2").innerHTML = `x2 é igual: ${divp}`;
-    } //se não for
+    } //se não for menor
     else {
         document.getElementById("x1").innerHTML = `x1 é igual: ${divp}`;
         document.getElementById("x2").innerHTML = `x2 é igual: ${divn}`;
