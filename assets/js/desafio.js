@@ -83,8 +83,14 @@ function caixa() {
         let n1 = Number(document.getElementById("n1").value);
         let n2 = Number(document.getElementById("n2").value);
         let n3 = Number(document.getElementById("n3").value);
+        // raiz de 2
+        let raiz =  Math.sqrt(4) 
 
-        
+
+        if(){
+
+        }
+
     }
 
    
