@@ -6,7 +6,6 @@ function bhask() {
     let b = Number(document.getElementById("n2").value);
     // número 3
     let c = Number(document.getElementById("n3").value);
-    // raiz de 2
 
     // calculo de delta
     let delta = -4 * a * c;
@@ -26,9 +25,7 @@ function bhask() {
     let divp = positivo / dividir;
     // calculo de x2
     let divn = negativo / dividir;
-    // divp for par
-
-    // divn for par
+    
 
 
     //o que esta na raiz menor que 0 
@@ -39,7 +36,7 @@ function bhask() {
     }
     //o que esta na raiz for igual a 0
     else if (delta == 0) {
-        document.getElementById("x1").innerHTML = `Só existe uma raiz real que é: ${divp}`
+        document.getElementById("x1").innerHTML = `Só existe uma raiz real que é: ${divp}`;
         document.getElementById("x2").innerHTML = `Só existe uma raiz real que é: ${divp}`;
         ;
 
